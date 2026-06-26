@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Charm:wght@400;700&family=Elsie:wght@400;900&family=Great+Vibes&family=MonteCarlo&family=Parisienne&family=Prata&family=Quintessential&family=Square+Peg&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  touch-action: manipulation;
+}
+
+:root {
+  font-family: "Protest Riot", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  overscroll-behavior: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.animate-bounce {
+  animation: float 3s ease-in-out infinite;
+  will-change: transform;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(-20px);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
