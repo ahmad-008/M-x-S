@@ -13,8 +13,6 @@ import purposerose from './assets/GifData/RoseCute.gif';
 import swalbg from './assets/Lovingbg2_main.jpg';
 import loveu from './assets/GifData/cutieSwal4.gif';
 
-import photo1 from "./assets/1st.jpeg";
-import photo2 from "./assets/2nd.jpeg";
 
 import yesgif0 from "./assets/GifData/Yes/lovecutie0.gif";
 import yesgif1 from "./assets/GifData/Yes/love2.gif";
